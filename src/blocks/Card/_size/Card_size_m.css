@@ -1,0 +1,40 @@
+.card_size_m {
+  grid-column: span 12;
+  grid-column-gap: 0.5em;  
+}
+
+@media ( min-width: 576px ) {
+  .card_size_m {
+    grid-column: span 6; 
+  }
+}
+
+.card_size_m .card-link {
+  grid-column: span 12;
+}
+
+.card_size_m .card-pic {
+  grid-column: span 12;
+}
+
+.card_size_m .card-desc {
+  grid-column: span 11
+}
+  
+@media ( max-width: 576px ) {
+  .card_size_m .card-desc {
+    grid-column: span 12;
+  }
+}
+
+.card_size_m .card-controls {
+  grid-column: span 1;
+}
+
+@media ( max-width: 576px ) {
+  .card_size_m .card-controls {
+    grid-column: span 12;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

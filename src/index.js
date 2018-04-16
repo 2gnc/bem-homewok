@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 import registerServiceWorker from './registerServiceWorker';
 
 import 'b:Page';
-import App from 'b:App';
+import Container from 'b:Container';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<Container />, document.getElementById('root'));
 registerServiceWorker();

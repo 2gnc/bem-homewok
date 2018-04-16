@@ -1,0 +1,26 @@
+.card-header {
+  font-family: "YS Text";
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  font-size: 19px;
+  text-overflow: clip;
+}
+
+@media ( min-width: 992px ) {
+  .card-header {
+    font-size: 19px;
+  }
+}
+
+@media ( min-width: 1200px ) {
+  .card-header {
+    font-size: 22px;    
+  }
+}
+
+@media ( min-width: 1600px ) {
+  .card-header {
+    font-size: 24px;        
+  }
+}

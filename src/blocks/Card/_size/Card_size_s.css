@@ -1,0 +1,38 @@
+.card_size_s {
+  grid-column: span 12
+}
+
+@media ( min-width: 576px ) {
+  .card_size_s {
+    grid-column: span 6;
+  }
+}
+
+@media ( min-width: 768px ) {
+  .card_size_s {
+    grid-column: span 4;
+  }
+}
+
+
+.card_size_s .card-link {
+  grid-column: span 12;
+}
+  
+
+.card_size_s .card-pic {
+  grid-column: span 12;
+}
+
+
+.card_size_s .card-desc {
+  grid-column: span 12;
+}
+
+
+.card_size_s .card-controls {
+  grid-column: span 12;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 0.5em;
+}
