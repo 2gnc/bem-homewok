@@ -1,0 +1,10 @@
+.card-pic {
+  width: 100%;
+}
+
+
+@media ( max-width: 320px ) {
+  .card-pic {
+    display: none;
+  }
+}

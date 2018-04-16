@@ -9,11 +9,12 @@ import Controls from 'e:Controls';
 
 export default declMod({ size : 'l' }, {
   block : 'card',
-  content({title, color, url, desc}) {
+  content({title, color, url, desc, picName}) {
       return (
         <Fragment>
           <Pic
-            url = {url}
+            url = { url }
+            picName = { picName }
           />
           <Link
             text = { title }
