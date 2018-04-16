@@ -1,0 +1,14 @@
+.heart {
+  width: 17px;
+  height: 16px;
+  cursor: pointer;
+  background-image: url("Heart.png");
+  background-position: center;
+  background-repeat: no-repeat;      
+}
+
+@media ( max-width: 576px ) {
+  .heart {
+    padding: 1em;
+  }
+}

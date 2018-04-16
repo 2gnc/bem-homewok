@@ -1,0 +1,14 @@
+.dots {
+  width: 14px;
+  height: 4px;
+  cursor: pointer;
+  background-image: url("Dots.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media ( max-width: 576px ) {
+  .dots {
+    padding: 1em;
+  }
+}
