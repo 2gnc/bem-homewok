@@ -1,0 +1,17 @@
+@media ( max-width: 768px ) {
+  .card_size_l .card-pic {
+    grid-column: span 12;
+  }
+}
+
+@media ( max-width: 768px ) {
+  .card_size_l .card-link {
+    grid-column: span 12;
+  }
+}
+
+@media ( max-width: 768px ) {
+  .card_size_l .card-desc {
+    grid-column: span 12;
+  }
+}

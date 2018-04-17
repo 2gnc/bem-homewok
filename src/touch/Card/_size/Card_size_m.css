@@ -1,0 +1,19 @@
+@media ( min-width: 576px ) {
+  .card_size_m {
+    grid-column: span 6; 
+  }
+}
+
+@media ( max-width: 576px ) {
+  .card_size_m .card-desc {
+    grid-column: span 12;
+  }
+}
+
+@media ( max-width: 576px ) {
+  .card_size_m .card-controls {
+    grid-column: span 12;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
