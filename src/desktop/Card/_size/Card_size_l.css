@@ -1,0 +1,23 @@
+@media ( min-width: 1600px ) {
+  .card_size_l {
+    grid-column: span 6
+  }
+}
+
+@media ( min-width: 1600px ) {
+  .card_size_l .card-pic {
+    grid-column: span 12;
+  }
+}
+
+@media ( min-width: 1600px ) {
+  .card_size_l .card-link {
+    grid-column: span 12;
+  }
+}
+
+@media ( min-width: 1600px ) {
+  .card_size_l .card-desc {
+    grid-column: span 12;
+  }
+}
