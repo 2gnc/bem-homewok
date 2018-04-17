@@ -15,6 +15,7 @@ export default declMod({ size : 'l' }, {
           <Pic
             url = { url }
             picName = { picName }
+            title = { title }
           />
           <Link
             text = { title }

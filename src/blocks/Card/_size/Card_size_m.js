@@ -19,6 +19,7 @@ export default declMod({ size : 'm' }, {
         <Pic
           url = { url }
           picName = { picName }
+          title = { title }
         />
         <Desc
           desc = { desc }

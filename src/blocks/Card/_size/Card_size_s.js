@@ -20,6 +20,7 @@ export default declMod({ size : 's' }, {
             <Pic
               url = { url }
               picName = { picName }
+              title = { title }
             />
             <Controls/>
           </Fragment>
