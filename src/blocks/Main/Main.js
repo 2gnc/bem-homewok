@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import { decl, Bem } from 'bem-react-core';
 
-import data from '../data';
+import data from '../../resources/data';
 import Card from 'b:Card m:size=s m:size=m m:size=l';
 
 /**
@@ -12,7 +12,7 @@ import Card from 'b:Card m:size=s m:size=m m:size=l';
 const picUrl = (url) => {
   const picUrl = url.split('/')[1];
   const picName = picUrl.split('.')[0];
-  return require(`../img/${picName}@2x.png`);
+  return require(`../../resources/img/${picName}@2x.png`);
 }
 
 /**
