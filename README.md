@@ -9,6 +9,7 @@
 * склоинровать репозиторий
 * установить зависимости
 * запуск в режиме разработки ``` export PLATFORM="desktop" && npm start ``` или ``` export PLATFORM="touch" && npm start ```. 
+* сброс переменной ``` unset PLATFORM ```
 * сборка ``` npm run build ```
 
 ## Общие впечатления
